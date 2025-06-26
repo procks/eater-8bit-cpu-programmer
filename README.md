@@ -8,7 +8,7 @@ For programming, all DIP switches must be set to the **up position** and the CPU
 Pre-programmed samples:
 - Fibonacci
 - Double
-- FizzBuzz prints each number 1 to 255, printing 0 if the number is divisible by 3 and printing 255 if the number is divisible by 5 (required [additional instructions](https://github.com/procks/beneater-8bit-eeprom/tree/main/microcode-eeprom-programmer))
+- FizzBuzz prints each number 1 to 255, printing 0 if the number is divisible by 3 and printing 255 if the number is divisible by 5 (required [additional instructions](https://github.com/procks/eater-8bit-cpu-programmer/tree/main/software/microcode-eeprom-programmer))
 - Counts up to 255 and then counts down to 0
 
 ![programmer](https://github.com/procks/eater-8bit-cpu-programmer/blob/main/resources/programmer.jpg)
