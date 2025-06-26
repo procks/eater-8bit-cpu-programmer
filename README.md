@@ -1,7 +1,7 @@
 # eater-8bit-cpu-programmer
 Programmer for Ben Eater 8-bit computer
 
-The programmer has 4 sample programs that can be selected with a button. It also allows programming via a serial terminal.
+The programmer has 4 sample programs that can be selected with a button. It also allows programming via a serial terminal. it's used cheap CH32X033F8P6 microcontroller.
 
 For programming, all DIP switches must be set to the **up position** and the CPU must be in programming mode. Then press the left button.
 
