@@ -148,7 +148,7 @@
 		(descr "https://katalog.we-online.com/em/datasheet/434133025816.pdf")
 		(tags "tactile switch Wurth Wuerth")
 		(property "Reference" "SW1"
-			(at 0.15 -2.6 0)
+			(at 0.15 0.295 0)
 			(layer "F.SilkS")
 			(uuid "b7a23f74-fb7e-46e0-b115-abb06ce0606a")
 			(effects
@@ -160,7 +160,7 @@
 		)
 		(property "Value" "Boot"
 			(at 0 2.55 0)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "55e7ddc2-e427-4aad-bbe6-b0af32916fce")
 			(effects
 				(font
@@ -1112,6 +1112,7 @@
 		(property "Reference" "SW2"
 			(at 0.15 -2.6 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "dafb178e-5781-4225-bb17-e2a8f19c044a")
 			(effects
 				(font
@@ -1120,9 +1121,9 @@
 				)
 			)
 		)
-		(property "Value" "Program"
-			(at 0 2.55 90)
-			(layer "F.Fab")
+		(property "Value" "Write"
+			(at 4.085762 -0.085147 0)
+			(layer "F.SilkS")
 			(uuid "66efa77f-68a4-4b57-b37c-8bb549bef5f7")
 			(effects
 				(font
@@ -1365,7 +1366,7 @@
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0.05 0 90)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "3c8bf62e-f79a-4f02-af3f-0e70acf852a7")
 			(effects
 				(font

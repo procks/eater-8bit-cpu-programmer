@@ -4803,7 +4803,7 @@
 				)
 			)
 		)
-		(property "Value" "Program"
+		(property "Value" "Write"
 			(at 114.046 97.536 0)
 			(effects
 				(font
