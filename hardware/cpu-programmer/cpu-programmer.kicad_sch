@@ -2579,10 +2579,22 @@
 		(uuid "8931e150-d8c4-4069-b54b-fd376cdc4506")
 	)
 	(junction
+		(at 129.54 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "92d5e7cb-0859-4e9b-b8eb-00946d81dc5c")
+	)
+	(junction
 		(at 106.68 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a84e55d3-cffa-4086-ac14-05f4f247ff1e")
+	)
+	(junction
+		(at 121.92 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b25561d4-f8e4-4764-9fa1-018c5a3d7497")
 	)
 	(junction
 		(at 106.68 104.14)
@@ -2613,6 +2625,26 @@
 			(type default)
 		)
 		(uuid "05dbd2d7-70a7-4f09-8b52-ac11b5ebcd20")
+	)
+	(wire
+		(pts
+			(xy 129.54 34.29) (xy 129.54 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0658b6c2-7f43-4bae-b5fc-531d9267cd45")
+	)
+	(wire
+		(pts
+			(xy 121.92 35.56) (xy 121.92 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2dca9a34-3eeb-4efd-9b76-70b1a8a692a7")
 	)
 	(wire
 		(pts
@@ -2656,7 +2688,17 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 35.56) (xy 128.27 35.56)
+			(xy 129.54 35.56) (xy 134.62 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "677a5736-9e09-4ef3-9d61-8fd42587a3ea")
+	)
+	(wire
+		(pts
+			(xy 120.65 35.56) (xy 121.92 35.56)
 		)
 		(stroke
 			(width 0)
@@ -2696,7 +2738,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 35.56) (xy 134.62 35.56)
+			(xy 128.27 35.56) (xy 129.54 35.56)
 		)
 		(stroke
 			(width 0)
@@ -2736,13 +2778,23 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 30.48) (xy 134.62 30.48)
+			(xy 115.57 30.48) (xy 134.62 30.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ac7c90a4-6986-413f-b5b2-608323e24c8b")
+	)
+	(wire
+		(pts
+			(xy 121.92 35.56) (xy 123.19 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be4bd51a-2421-4700-9df0-83f22bb86800")
 	)
 	(wire
 		(pts
@@ -2763,6 +2815,16 @@
 			(type default)
 		)
 		(uuid "ca5a0ae8-32c4-43ab-b219-554bfca4d9a8")
+	)
+	(wire
+		(pts
+			(xy 121.92 34.29) (xy 129.54 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cac49e1c-4199-49b4-a1ed-8115789c6f2c")
 	)
 	(wire
 		(pts
@@ -3302,7 +3364,7 @@
 	)
 	(global_label "SWCLK"
 		(shape input)
-		(at 125.73 35.56 180)
+		(at 120.65 35.56 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3312,7 +3374,7 @@
 		)
 		(uuid "b523c7ef-9434-4790-898f-86289da0d17a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 116.5952 35.56 0)
+			(at 111.5152 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3972,7 +4034,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 123.19 30.48 0)
+		(at 115.57 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3980,7 +4042,7 @@
 		(dnp no)
 		(uuid "3f74cafc-b3fb-486c-aac3-51363f8793ee")
 		(property "Reference" "#PWR017"
-			(at 123.19 36.83 0)
+			(at 115.57 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3989,7 +4051,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 119.888 29.972 0)
+			(at 112.268 29.972 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3997,7 +4059,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 123.19 30.48 0)
+			(at 115.57 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4006,7 +4068,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 123.19 30.48 0)
+			(at 115.57 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4015,7 +4077,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 123.19 30.48 0)
+			(at 115.57 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5267,7 +5329,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 130.81 35.56 90)
+		(at 125.73 35.56 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5275,7 +5337,7 @@
 		(dnp no)
 		(uuid "c38c9bd1-4250-432b-8f5f-032f37a2b784")
 		(property "Reference" "R2"
-			(at 129.794 33.782 90)
+			(at 124.714 33.782 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5283,7 +5345,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 131.064 35.56 90)
+			(at 125.984 35.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5291,7 +5353,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 130.81 35.56 0)
+			(at 125.73 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5300,7 +5362,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 130.81 35.56 0)
+			(at 125.73 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5309,7 +5371,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 130.81 35.56 0)
+			(at 125.73 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
