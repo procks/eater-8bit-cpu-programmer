@@ -58,7 +58,16 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "unconnected_items|36989853|26989238|b4f1e6eb-859d-43f2-9c0d-84c40f235c47|eaeb99e5-3556-477c-8691-482f31952efe",
+          "Button has the connection inside"
+        ],
+        [
+          "unconnected_items|58125000|24630000|8e73fdff-3b01-4899-b943-fadf363bdd31|1ec920d1-9daa-45c0-a84a-29a786e371da",
+          "Button has the connection inside"
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -137,7 +146,7 @@
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.0,
+        "min_track_width": 0.2,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
         "solder_mask_to_copper_clearance": 0.0,
@@ -478,7 +487,7 @@
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
+        "diff_pair_width": 0.3,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
@@ -504,7 +513,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "./CAM",
+      "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
