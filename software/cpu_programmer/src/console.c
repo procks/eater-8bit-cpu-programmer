@@ -91,8 +91,6 @@ void printByte(uint8_t b) {
 }
 
 bool readLine() {
-    memset(line, 0x0, sizeof(line));
-
     // read serial data until linebreak or buffer is full
     char c = ' ';
     if (CDC_available()) {
